@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactformulieren</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+
+    <h1> Welkom chefs , vul onderstaande formulieren en uw recept in aub </h1>
+
+    <div class="formulieren">
+        <form name="contact" method="POST" data-netlify="true">
+
+            <label>Naam: <input type="text" name="naam" /></label>
+
+
+
+            <p>
+                <label>telefoonnummer: <input type="tel" name="telefoonnummer" /></label>
+
+            </p>
+            <label>geboortedatum: <input type="date" name="geboortedatum" /></label>
+            <p>
+
+
+                <label>leeftijd: <input type="text" name="leeftijd" /></label>
+            </p>
+            <p>
+                <label>Geslacht: man<input type="radio" name="man" /> vrouw<input type="radio" name="vrouw" /></label>
+            </p>
+
+            <p>
+                <label>favoriete keuken: frans<input type="checkbox" name="frans" />italiaans<input type="checkbox"
+                        name="italiaans" />spaans<input type="checkbox" name="spaans" />arabisch<input type="checkbox"
+                        name="arabisch" /></label>
+            </p>
+
+
+            <label>favoriete kleur short: <input type="color" name="kleur" /></label>
+
+
+
+            <p>
+                <label>Emailadres: <input type="email" name="email" /></label>
+            </p>
+
+            <p>
+                <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+
+            <p>
+                <label>upload je laatste gerecht: <input type="file" name="file" /></label>
+            </p>
+            <p>
+                <label>url naar je favoriete website: <input type="url" name="url" /></label>
+            </p>
+            <p>
+                <button type="reset">reset</button>
+            </p>
+
+
+            <p>
+                <button type="submit"> verzend</button>
+
+            </p>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

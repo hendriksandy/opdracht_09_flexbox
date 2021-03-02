@@ -1,0 +1,26 @@
+.blogpost {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.blogpost1 {
+
+    width: 300px;
+    border: 1px solid black;
+    flex-grow: 3;
+}
+
+.blogpost2 {
+
+    width: 300px;
+    border: 1px solid black;
+    flex-grow: 16;
+    align-self: center;
+}
